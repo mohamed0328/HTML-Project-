@@ -1,0 +1,14 @@
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\bin\Debug\netcoreapp2.1\GitHunProject.deps.json
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\bin\Debug\netcoreapp2.1\GitHunProject.runtimeconfig.json
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\bin\Debug\netcoreapp2.1\GitHunProject.runtimeconfig.dev.json
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\bin\Debug\netcoreapp2.1\GitHunProject.dll
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\bin\Debug\netcoreapp2.1\GitHunProject.pdb
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.csprojAssemblyReference.cache
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.csproj.CoreCompileInputs.cache
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.RazorAssemblyInfo.cache
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.RazorAssemblyInfo.cs
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.AssemblyInfoInputs.cache
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.AssemblyInfo.cs
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.RazorTargetAssemblyInfo.cache
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.dll
+C:\bootcamp2019\HTML AND CSS\GitHunProject\GitHunProject\obj\Debug\netcoreapp2.1\GitHunProject.pdb

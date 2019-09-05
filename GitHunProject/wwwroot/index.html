@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Github Hub</title>
+
+  <link rel="stylesheet" href="css/site.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <!--Header Section-->
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <img src="image/logo1.png" class="bordered-image" />
+            </div>
+            <div>This is a site to search Github for interesting projects.</div>
+        </header>
+
+
+        <!--Main Section-->
+        <section id="main">
+            <p>
+                In this
+                <em>sample site</em>, we'll show a list of <a href="http://github.com">Github</a> projects
+                <span>and the data</span>about
+                <strong>those projects</strong>.
+            </p>
+
+
+            <!-- Search Form section-->
+            <form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form" id="gitHubSearchForm" style="height:400px;">
+
+                <div id="validationDiv" style="margin-left:  100px; color: red;"></div>
+
+                <label for="searchPhrase">Search Phrase:</label>
+                <input type="text" name="searchPhrase" id="searchPhrase" />
+                <br />
+
+                <input type="checkbox" name="useStars" id="useStars" checked="true" />
+                <label for="useStars">Use Stars?</label>
+                <br />
+
+                <label for="langChoice">Language:</label>
+                <select name="langChoice" id="langChoice">
+                    <option>All</option>
+                    <option>JavaScript</option>
+                    <option selected>C#</option>
+                    <option>Java</option>
+                    <option>Ruby</option>
+                </select>
+                <br />
+                <input type="submit" value="search" />
+
+                <hr />
+
+                <!-- search table row details section-->
+                <div style="font-size:medium; font-weight: bold">
+                    <div id="id"></div>
+                    <div id="name"></div>
+                    <div id="fullName"></div>
+                    <div id="language"></div>
+                    <div id="login"></div>
+                    <div id="forks"></div>
+                </div>
+            </form>
+
+
+
+            <!-- Search Result section-->
+            <div id="results" class="bordered-image">
+                <button id="toggleButton">Hide</button>
+                <div id="searchStatus"></div>
+
+                <div id="resultList" style="height: 380px;overflow-y: scroll; ">
+                    <table id="t01">
+                        <tr>
+                            <th>Name</th>
+                            <th>Laguage</th>
+                            <th>Username</th>
+                            <th>Details</th>
+                        </tr>
+                        <tbody id="searchResult"></tbody>
+
+
+                    </table>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!--Footer Section-->
+        <footer>
+            &copy; Mohamed Yousef
+
+        </footer>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="Js/index.js"></script>
+
+
+</body>
+
+</html>
